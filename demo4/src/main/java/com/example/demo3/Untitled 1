@@ -1,0 +1,16 @@
+PUT 방식에 이해 및 실습
+
+학습 목표
+1. @PutMapping 이해
+2. Dto 안에 List<object> 타입 만들어보기
+3. 스테이크 케이스, 카멜 케이스 구분하기
+- jsonproperty 속성에 대해서 알아보자
+4. path Variable 사용해 보기
+
+DELETE 방식에 이해 및 실습
+
+학습 목표
+1. @ DeleteMapping 이해
+2. @ PathVariable 사용
+3. @ RequestParam 사용
+
