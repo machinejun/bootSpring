@@ -13,10 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeleteApiController {
 	
 	@DeleteMapping("/delete/{userId}")
-	public void delete(@PathVariable String userId, @RequestParam String account) {
+	public String delete(@PathVariable String userId, @RequestParam String account) {
+		StringBuilder br = new StringBuilder();
+		br.append("userId : " + userId + "\n");
+		br.append("account : " + account);
 		
-		System.out.println("userId : " + userId);
-		System.out.println("account : " + account);
+		return br.toString();
 	}
 
 }
