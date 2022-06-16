@@ -13,7 +13,6 @@
 	<main>
 		1에서 20까지 합은 ???<br/><br/>
 		<!-- JSP 태그를 이용해서 1 + 2 + 3 ... 10 = 55 -->
-		
 		<%
 		int result = 0;
 		for(int i =1; i < 11; i++){
@@ -25,7 +24,6 @@
 				
 				out.println(i + " = " + result);
 			}
-	
 		}
 		%>
 		<br/>
